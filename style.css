@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500');
+
+
+/* 
+	Imagen estatica obtenida de https://www.w3schools.com/cssref/tryit.asp?filename=trycss_background-attachment_fixed
+*/
+
+.imagen-estatica{
+	background-image: url(./imagenes/innovation-cover.png);
+  	min-height: 500px;
+  	background-attachment: fixed;
+  	background-position: center;
+  	margin-top: -20px; 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.imagen-estatica > .title{
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+}
+
+
+.title{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	color: #29a3a3;
+	text-align: center;
+  margin-top: 50px;
+}
+
+.subtitle{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #29a3a3;
+	text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 350px 200px 350px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+
+.details{
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h4.details{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+h5.details{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#avatarPic{
+	border-radius: 50%;
+	width: 150px;
+}
+
+.grid-container-projects {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.grid-item-left {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: right;
+  margin-left: 5px;
+}
+
+.grid-item-right {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: left;
+}
+
+.project-title{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	color: #29a3a3;
+}
+
+.project-description{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.project-tasks{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+.grid-container-tech{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+.grid-item-tech-name{
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  color: #29a3a3;
+}
+
+.grid-item-tech-info{
+  margin-top: 0px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.grid-item-tech-foto{
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.grid-item-tech-foto > img{
+	max-width: 50px;
+}
+
+.grid-container-school {
+  display: grid;
+  grid-template-columns: 350px 350px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.grid-item-left-school {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: right;
+  margin-left: 5px;
+}
+
+.grid-item-right-school {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: left;
+}
