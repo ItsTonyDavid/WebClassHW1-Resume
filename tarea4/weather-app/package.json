@@ -1,0 +1,18 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Lab 4 of Web Dev class",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "itsTonyDavid"
+  },
+  "author": "Tony David",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
