@@ -1,5 +1,0 @@
-
-module.exports.MAPBOX_TOKEN = 'pk.eyJ1IjoiaXRzdG9ueWRhdmlkIiwiYSI6ImNqdDNqYmptMzF1aHAzeXBpeHNkN2hhZGIifQ.GH2pJg5iXzA_kZJo6Tebbg'
-//https://api.mapbox.com/geocodpk.eyJ1IjoiaXRzdG9ueWRhdmlkIiwiYSI6ImNqdDNqYmptMzF1aHAzeXBpeHNkN2hhZGIifQ.GH2pJg5iXzA_kZJo6Tebbg"
-
-module.exports.DARK_SKY_SECRET_KEY = '9bf0bcd6f6918311968bde7a1d27d32d'
