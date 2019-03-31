@@ -1,8 +1,9 @@
 const geolocation = require('./geolocationRequest.js');
 const weather = require('./weatherRequest.js');
-const place = 'Monterrey';
+const place = 'qwdqweqw';
 
 //Mandamos llamar la API de mapa para obtener coordenadas
+//La funcion obtainGeolocation tiene 2 parametros (place y function(error,response), pero en realidad tiene 3 (place, error, response))
 geolocation.obtainGeolocation(place, function(error,response){
   //Si un callback nos regresa error lo imprimimos
   if(error){
