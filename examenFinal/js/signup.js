@@ -14,7 +14,7 @@ $('#signup_button').on('click', function(){
   };
 
   json_to_send = JSON.stringify(json_to_send);
-
+  console.log(json_to_send);
   $.ajax({
     url: 'https://webexamfinal.herokuapp.com/users',
     // url: 'https://tuapp.herokuapp.com/users',
